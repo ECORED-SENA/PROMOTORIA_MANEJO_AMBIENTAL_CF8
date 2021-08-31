@@ -4,143 +4,234 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .titulo-principal
-      .h3 Producción Audiovisual
-    
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+      .titulo-principal__numero
+        span 2
+      h1 Legislación Ambiental
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5(data-aos="fade")
+      img(src="@/assets/curso/banner-tema2.png", alt="Legislación Ambiental")  
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+    p(data-aos="fade") En Colombia conscientes de la situación ambiental y de la importancia de establecer acciones para su solución, se han adoptado figuras jurídicas para desarrollar la legislación ambiental colombiana, esto con el fin de avanzar en el logro de los objetivos que están encaminados hacia el desarrollo sostenible a través de mecanismos con los que se realiza la evaluación ambiental, se sancionan o autorizan proyectos a quienes incumplen estas normas ambientales.   
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+    Separador
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+    // 2.1
+    #t_2_1.titulo-segundo(data-aos="fade-right")
+      .h2 2.1. Factores de clasificación de las normas ambientales
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+    p.mb-4(data-aos="fade") Al interior de la legislación es importante establecer los factores que clasificación las normas ambientales las cuales permitan su articulación y conocimiento sobre para qué se pueden utilizar en un programa ambiental.   
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade")
+      p.mb-0
+        strong Tabla 1. 
+        | Clasificación de normas ambientales.
 
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+    .tabla-b.color-primario(data-aos="fade-down")
+      table
+        tr.text-white.tabla-b__header
+          td.column-1 CLASIFICACIÓN
+          td.column-2 CONCEPTO
+          td.column-3 FACTORES 
+        tr
+          td.text-center.back-verde-suave 
+            strong Protección del ambiente.
+          td.back-white Son aquellas cuyo propósito principal es la prevención, reducción y eliminación de la contaminación, o de cualquier otra degradación del ambiente. Incluye medidas adoptadas con el fin de restablecer el ambiente después de su degradación debido a presiones causadas por actividades humanas.
+          td.back-white 
+            p 
+              strong Protección del aire y del clima: 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Prevención de la contaminación mediante modificación de los procesos.
+              li 
+                i.fas.fa-atom
+                | Tratamiento de los gases de escape y el aire de ventilación.
+              li 
+                i.fas.fa-atom
+                | Medición, control, laboratorios y similares.    
+        tr
+          td.text-center.back-verde-suave 
+            strong Gestión de aguas residuales.
+          td.back-white Comprende las actividades y medidas orientadas a la prevención de la contaminación de las aguas superficiales mediante la reducción de las descargas de aguas residuales sobre las aguas superficiales y mares. 
+          td.back-white 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Redes de alcantarillado.
+              li 
+                i.fas.fa-atom
+                | Tratamiento de las aguas residuales.
+              li 
+                i.fas.fa-atom
+                | Tratamiento del agua de refrigeración.
+        tr
+          td.text-center.back-verde-suave 
+            strong Gestión de residuos.
+          td.back-white Hace referencia a las actividades y medidas dirigidas a prevenir la generación de residuos y a reducir sus efectos nocivos para el ambiente. Comprende la recolección y tratamiento de residuos, incluidas las actividades de seguimiento y regulación.
+          td.back-white 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Recolección y transporte.
+              li 
+                i.fas.fa-atom
+                | Tratamiento y eliminación de residuos peligrosos.
+              li 
+                i.fas.fa-atom
+                | Tratamiento y eliminación de residuos no peligrosos.
+        tr
+          td.text-center.back-verde-suave 
+            strong Protección y recuperación de suelos, aguas subterráneas y aguas superficiales.
+          td.back-white Hace referencia a las medidas y actividades dirigidas a prevenir la filtración de contaminantes, a limpiar suelos y cuerpos de agua y a proteger el suelo contra la erosión, la salinización y otras formas de degradación física.
+          td.back-white 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Prevención de la filtración de contaminantes.
+              li 
+                i.fas.fa-atom
+                | Limpieza del suelo y los cuerpos de agua.
+              li 
+                i.fas.fa-atom
+                | Protección del suelo contra la erosión y otras formas de degradación física.
+              li 
+                i.fas.fa-atom
+                | Prevención y recuperación de la salinidad del suelo.  
+        tr
+          td.text-center.back-verde-suave 
+            strong Atenuación de ruidos y vibraciones.
+          td.back-white Hace referencia a las medidas y actividades tendientes a controlar, reducir y atenuar los ruidos y vibraciones industriales y del transporte.
+          td.back-white 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Modificaciones preventivas de los procesos en la fuente.
+              li 
+                i.fas.fa-atom
+                | Construcción de instalaciones contra el ruido y las vibraciones.
+        tr
+          td.text-center.back-verde-suave 
+            strong Protección de la biodiversidad y de los paisajes.
+          td.back-white Hace referencia a las medidas y actividades destinadas a la protección y rehabilitación de especies de la fauna y la flora, de los ecosistemas y hábitat, así como a la protección y rehabilitación de paisajes naturales e intervenidos.
+          td.back-white 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Protección y rehabilitación de hábitat y especies.
+              li 
+                i.fas.fa-atom
+                | Protección de paisajes naturales e intervenidos seminaturales.
+        tr
+          td.text-center.back-verde-suave 
+            strong Protección contra las radiaciones.
+          td.back-white Hace referencia a actividades y mediciones orientadas a reducir o eliminar las consecuencias negativas de radiaciones emitidas por cualquier fuente.
+          td.back-white 
+            ul.lista-ul--color.lista-azul
+              li 
+                i.fas.fa-atom
+                | Protección del entorno.
+              li 
+                i.fas.fa-atom
+                | Transporte y tratamiento de residuos de alto nivel radiactivo.    
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+        caption Nota. DANE, s.f.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
+    Separador
 
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
 
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
+    // 2.2
+    #t_2_2.titulo-segundo(data-aos="fade-right")
+      .h2 2.2 Métodos de jerarquización de las normas ambientales
 
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
+    p.mb-4(data-aos="fade") Las normas ambientales están divididas principalmente por las siguientes clasificaciones según su grado de importancia jerárquicamente:
 
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
+    TabsA.color-primario.mb-4(data-aos="fade-down")
+      .row.tarjeta.back-amarillo-suave.p-4(titulo="Normas ambientales")
+        .col-md-2
+          img.px-lg-3(src="@/assets/curso/tema2-2-tab1.svg", alt="Normas ambientales")  
+        .col-md-10
+          h5 Normas ambientales
+          p Son aplicables a cualquier empresa sin importar el tamaño, el tipo y la naturaleza, además se utilizan los aspectos ambientales a sus actividades, productos y servicios, permitiendo que la organización determine que puede controlar o influir, considerando la perspectiva del ciclo de vida.
+      .row.tarjeta.back-amarillo-suave.p-4(titulo="Tratados internacionales")
+        .col-md-2
+          img.px-lg-3(src="@/assets/curso/tema2-2-tab2.svg", alt="Tratados internacionales")  
+        .col-md-10
+          h5 Tratados internacionales
+          p Son un acuerdo entre dos o más países que quedan por escrito y están regulados por las normas del derecho internacional.
+      .row.tarjeta.back-amarillo-suave.p-4(titulo="Leyes ambientales")
+        .col-md-2
+          img.px-lg-3(src="@/assets/curso/tema2-2-tab3.svg", alt="Leyes ambientales")  
+        .col-md-10
+          h5 Leyes ambientales 
+          p Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales. 
+      .row.tarjeta.back-amarillo-suave.p-4(titulo="Decretos ambientales")
+        .col-md-2
+          img.px-lg-3(src="@/assets/curso/tema2-2-tab4.svg", alt="Decretos ambientales")  
+        .col-md-10
+          h5 Decretos ambientales  
+          p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación. Destina como un servicio público la salud y el saneamiento ambiental.
+      .row.tarjeta.back-amarillo-suave.p-4(titulo="Resoluciones ambientales")
+        .col-md-2
+          img.px-lg-3(src="@/assets/curso/tema2-2-tab5.svg", alt="Resoluciones ambientales")  
+        .col-md-10
+          h5 Resoluciones ambientales 
+          p Son los lineamientos que la autoridad señala para la elaboración y ejecución de los estudios que deben ser presentados ante la autoridad competente.       
 
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
+    p.mb-4(data-aos="fade") Las anteriores normas se pueden agrupar en diferentes áreas normativas: 
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
+    .tarjeta--container.row(data-aos="fade-down")
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-7
+            figure
+              img(src='@/assets/curso/tema2-2-tarjeta1.svg', alt='Política ambiental')          
+        h4.text-center Política ambiental
+        p.text-center Es la gestión pública o privada de los asuntos ambientales, internacionales, nacionales, regionales y locales. 
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
+      .col-md.tarjeta.color-acento-contenido.p-5
+        .row.justify-content-center.mb-4
+          .col-7
+            figure
+              img(src='@/assets/curso/tema2-2-tarjeta2.svg', alt='Ordenamiento ambiental')          
+        h4.text-center Ordenamiento ambiental
+        p.text-center Es la distribución de los usos del territorio de acuerdo con sus características.
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-7
+            figure
+              img(src='@/assets/curso/tema2-2-tarjeta3.svg', alt='Evaluación de impacto ambiental')
+        h4.text-center Evaluación de impacto ambiental
+        p.text-center Son las acciones que permiten determinar los efectos de las diferentes actividades desarrolladas dentro de los planes y proyectos de una organización sobre el medio ambiente
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    Separador
+
+
+    // 2.3
+    #t_2_3.titulo-segundo(data-aos="fade-right")
+      .h2 2.3. Autoridades Ambientales
+
+    p(data-aos="fade")  Las autoridades ambientales son entes de carácter público que se encargan de la administración dentro del área de su jurisdicción del medio ambiente y los recursos naturales. Estos propenden por el desarrollo sostenible a través del cumplimiento de las regulaciones y disposiciones legales del ministerio de ambiente, vivienda y desarrollo territorial.
+
+    p.mb-4(data-aos="fade")  En Colombia las normas ambientales están divididas según el trámite y también según la ubicación. Según el Ideam, (s.f.) las autoridades ambientales Colombia son:  
+
+    .row.tarjeta.back-verde.p-lg-5.p-3 
+      h3.text-center Autoridades ambientales en Colombia
+      Botones(data-aos="fade-down")
+
 
 </template>
 
 <script>
+import Botones from '../components/Botones.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Botones,
+  },
   data: () => ({
     // variables de vue
   }),

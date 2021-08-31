@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Plan de promotoría',
     descripcionCurso:
       'En el componente se abordan temas que permiten estructurar programas de formación, teniendo clara la metodología y los criterios de evaluación frente al trabajo de concientización con comunidades a cerca de las normativas ambientales. ',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
