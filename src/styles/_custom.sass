@@ -21,21 +21,100 @@
   background-color: #8AD24A
 .back-color-acento-contenido  
   background-color: #FDE947
+.tarjeta-verde
+  background-color: #e2f3d2  
 
 .tabla-b__header td
   font-weight: 600
   font-size: 18px
-.tabla-b .column-1
+.tabla-b.color-primario .column-1
   width: 16%
-.tabla-b .column-2
+.tabla-b.color-primario .column-2
   width: 42%
-.tabla-b .column-3
+.tabla-b.color-primario .column-3
   width: 42%
-.tabla-b td
+.tabla-b.color-primario td
   border: 1px solid #8AD24A  
+
 .lista-azul.lista-ul--color li > i:first-of-type
   color: #3CA8F4
+.lista-ul--color.lista-circulo.lista-azul li > i:first-of-type
+  font-size: 12px
+  padding-top: 1px
+.lista-verde.lista-ul--color li > i:first-of-type
+  color: #8AD24A  
+  font-size: 12px
+  padding-top: 2px
 
 .tarjeta-botones
   background-color: #FFF
   border: 7px solid #8AD24A
+
+.tarjeta-avatar > img
+  height: 80px
+.objetivos .tarjeta.color-primario  
+  border: 4px solid #8AD24A 
+.objetivos .tarjeta.color-primario:hover
+  background-color: #F6F6F6
+  border: 4px solid #8AD24A  
+
+.bloque-texto-a.color-secundario
+  background-color: #3CA8F4
+.bloque-texto-a.color-secundario:before
+  background-color: #F6F6F6
+
+.tabla-b td, .tabla-b th
+  border: 1px solid #0F2771
+td.col-gris1  
+  background-color: #F6F6F6
+td.col-gris2  
+  background-color: #E8E8E8 
+td.col-blanca
+  background-color: #FFF
+th.col1-tabla1
+  width: 27%  
+
+
+// TARJETA HOVER ------------------
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  height: 262px   
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt, .tarjetaTxt2 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      height: 262px
+    .tarjetaImg img
+      height: 262px 
+      width: 100%  
+    .tarjetaTxt
+      height: 262px      
+      text-align: center
+      background-color: #F6F6F6 
+      border: 5px solid #FDE947
+      border-radius: 20px
+    .tarjetaTxt2
+      height: 262px   
+      text-align: center
+      background-color: #F6F6F6 
+      border: 5px solid #8AD24A
+      border-radius: 20px  
+  &:hover
+    .tarjetaContent
+      top: -262px
+@media (max-width: $bp-max-md)
+  .tarjeta-container.tarjeta-grande
+    height: 300px 
+  .tarjeta-container.tarjeta-grande .tarjetaContent .tarjetaImg, .tarjeta-container.tarjeta-grande .tarjetaContent .tarjetaTxt
+    height: 300px
+  .tarjeta-container.tarjeta-grande .tarjetaContent:hover    
+    top: -300px    
