@@ -6,10 +6,10 @@
     .titulo-segundo
       h2 Completar la frase con el término necesario
     .row.mb-5.justify-content-center.align-items-center
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0.mb-lg-5(data-aos="fade-right")
-        .tarjeta.tarjeta--gris.h-100.d-flex.align-items-center.p-lg-2
+      .col-9.col-md-4.col-lg-3.mb-4.mb-md-0.mb-lg-5(data-aos="fade-right")
+        .tarjeta.tarjeta--gris.h-100.d-flex.align-items-center.p-2
           figure.px-lg-4
-            img.px-lg-5.py-lg-5(src="@/assets/curso/actividad-didactica.svg", alt="Completar la frase con el término necesario")
+            img.px-5.py-5(src="@/assets/curso/actividad-didactica.svg", alt="Completar la frase con el término necesario")
       .col-12.col-md-8.col-lg-9.mb-lg-5(data-aos="fade-left")
         .col-lg-6
           p.mb-4.mb-lg-5 Afianzar algunos de los conceptos sobre los procesos de aprendizaje y normativa ambiental. 

@@ -119,7 +119,7 @@
     p.mb-5(data-aos="fade") Usualmente se llevan a cabo para generar un aprendizaje de manera grupal y así los alumnos puedan resolver dudas entre ellos.
 
     .row.mb-5(data-aos="fade-down")
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -128,7 +128,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Mesa redonda
               p.mb-0 Permite exponer puntos de vista sobre un tema común, aportando información variada. Al finalizar las exposiciones, el moderador hace un resumen de las coincidencias y diferencias, posteriormente se invita a formular preguntas que puedan aclarar las dudas que se tengan sobre algún tema específico.
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
           .tarjetaContent
@@ -138,7 +138,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Philipps 66
               p.mb-0 En esta técnica un grupo se divide en subgrupos de seis personas, para discutir durante seis minutos un tema y llegar a una conclusión. Cada grupo genera un informe donde se extrae la conclusión general. 
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -148,7 +148,7 @@
               h5.mb-0 Juego de roles
               p.mb-0 Dos o más personas representan una situación real, asumiendo los roles del caso, con la finalidad de que el tema propuesto pueda ser mejor comprendido por el grupo.
 
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -157,7 +157,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Foro
               p.mb-0 El grupo expresa informal y libremente sus ideas y opiniones sobre un asunto. Para esta actividad, se requiere de una moderación. 
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -166,7 +166,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Interrogatorio
               p.mb-0 Se basa en el cuestionamiento para obtener información sobre procedimientos, habilidades, conceptos, sentimientos o experiencias que estén relacionadas con la temática.
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -176,7 +176,7 @@
               h5.mb-0 Estudio de caso
               p.mb-0 Se describe una situación real o ficticia, y se sigue con el planteamiento de un problema para el cual se requiere de una solución. 
 
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -185,7 +185,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Exposición
               p.mb-0 Se trata de una técnica para expresar de manera oral un tema de interés colectivo.
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
           .tarjetaContent
@@ -195,7 +195,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Lluvia de ideas
               p.mb-0 Permite establecer ideas para que sea analizadas las más relevantes. Generalmente se descartan las que no se relacionan con el tema.
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -205,7 +205,7 @@
               h5.mb-0 Diálogos simultáneos
               p.mb-0  Se utiliza para dar soluciones rápidas a un tema específico por medio de confrontar puntos de vista. En esto participan varios equipos en los cuales se discute el problema en un breve periodo de tiempo. 
 
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -214,7 +214,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Simposio
               p.mb-0 Un grupo de expertos habla por turnos acerca de un tema y se utiliza para ampliar la información de un asunto o tema.
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -223,7 +223,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Debate o discusión guiada
               p.mb-0 Consiste en el intercambio informal de ideas, información u opiniones, la cual permite la moderación para guiar y plantear interrogantes para conducir la discusión.
-      .col-lg-4
+      .col-lg-4.mb-2
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -340,46 +340,46 @@
 
     h3.mb-4(data-aos="fade-right") Formas de evaluar propuestas
 
-    .row.mb-4
-      .col-lg-7(data-aos="fade-right")  
+    .row
+      .col-lg-7.mb-4(data-aos="fade-right")  
         AcordeonB(tipo="a" clase-tarjeta="tarjeta tarjeta-verde")
-          .row.px-lg-5(titulo="Evaluación diagnóstica")
-            .col-lg-3
+          .row.justify-content-center.px-lg-5(titulo="Evaluación diagnóstica")
+            .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab1.svg", alt="Evaluación diagnóstica") 
             .col-lg-1  
             .col-lg-8
               p Evalúa las fortalezas, debilidades, conocimientos y habilidades antes de un proceso de la formación. En sí, sirve para conocer el punto de partida.
-          .row.px-lg-5(titulo="Evaluación formativa")
-            .col-lg-3
+          .row.justify-content-center.px-lg-5(titulo="Evaluación formativa")
+            .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab2.svg", alt="Evaluación formativa") 
             .col-lg-1  
             .col-lg-8
               p Evalúa el rendimiento durante la formación y, por lo general, se produce con regularidad durante todo el proceso de instrucción. 
-          .row.px-lg-5(titulo="Evaluación sumativa")
-            .col-lg-3
+          .row.justify-content-center.px-lg-5(titulo="Evaluación sumativa")
+            .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab3.svg", alt="Evaluación sumativa") 
             .col-lg-1  
             .col-lg-8
               p Mide el rendimiento al final de la formación. Es la forma de saber qué ha aprendido y qué no.
-          .row.px-lg-5(titulo="Evaluación por medias")
-            .col-lg-3
+          .row.justify-content-center.px-lg-5(titulo="Evaluación por medias")
+            .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab4.svg", alt="Evaluación por medias") 
             .col-lg-1  
             .col-lg-8
               p Compara el desempeño de las personas; es una especie de evaluación grupal o “demográfica” que ayuda sacar conclusiones generales.
-          .row.px-lg-5(titulo="Evaluación basada en objetivos")
-            .col-lg-3
+          .row.justify-content-center.px-lg-5(titulo="Evaluación basada en objetivos")
+            .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab5.svg", alt="Evaluación basada en objetivos") 
             .col-lg-1  
             .col-lg-8
               p Mide el rendimiento frente a una meta, un objetivo específico o estándar. Consigue obtener datos y conclusiones más concretas sobre el proceso de enseñanza y aprendizaje.
-          .row.px-lg-5(titulo="Evaluación intermedia o de referencia")
-            .col-lg-3
+          .row.justify-content-center.px-lg-5(titulo="Evaluación intermedia o de referencia")
+            .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab6.svg", alt="Evaluación intermedia o de referencia") 
             .col-lg-1  
             .col-lg-8
               p Evalúa el rendimiento por intervalos de tiempo periódicos. Normalmente coinciden con el final de períodos de calificación: meses, trimestres, entre otros.            
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.mb-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1-tabs.jpg", alt="Imagen decorativa") 
 

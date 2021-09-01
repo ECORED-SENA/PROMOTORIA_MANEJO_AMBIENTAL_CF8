@@ -148,32 +148,32 @@
     p.mb-4(data-aos="fade") Las normas ambientales están divididas principalmente por las siguientes clasificaciones según su grado de importancia jerárquicamente:
 
     TabsA.color-primario.mb-4(data-aos="fade-down")
-      .row.tarjeta.back-amarillo-suave.p-4(titulo="Normas ambientales")
-        .col-md-2
+      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Normas ambientales")
+        .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab1.svg", alt="Normas ambientales")  
         .col-md-10
           h5 Normas ambientales
           p Son aplicables a cualquier empresa sin importar el tamaño, el tipo y la naturaleza, además se utilizan los aspectos ambientales a sus actividades, productos y servicios, permitiendo que la organización determine que puede controlar o influir, considerando la perspectiva del ciclo de vida.
-      .row.tarjeta.back-amarillo-suave.p-4(titulo="Tratados internacionales")
-        .col-md-2
+      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Tratados internacionales")
+        .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab2.svg", alt="Tratados internacionales")  
         .col-md-10
           h5 Tratados internacionales
           p Son un acuerdo entre dos o más países que quedan por escrito y están regulados por las normas del derecho internacional.
-      .row.tarjeta.back-amarillo-suave.p-4(titulo="Leyes ambientales")
-        .col-md-2
+      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Leyes ambientales")
+        .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab3.svg", alt="Leyes ambientales")  
         .col-md-10
           h5 Leyes ambientales 
           p Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales. 
-      .row.tarjeta.back-amarillo-suave.p-4(titulo="Decretos ambientales")
-        .col-md-2
+      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Decretos ambientales")
+        .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab4.svg", alt="Decretos ambientales")  
         .col-md-10
           h5 Decretos ambientales  
           p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación. Destina como un servicio público la salud y el saneamiento ambiental.
-      .row.tarjeta.back-amarillo-suave.p-4(titulo="Resoluciones ambientales")
-        .col-md-2
+      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Resoluciones ambientales")
+        .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab5.svg", alt="Resoluciones ambientales")  
         .col-md-10
           h5 Resoluciones ambientales 
