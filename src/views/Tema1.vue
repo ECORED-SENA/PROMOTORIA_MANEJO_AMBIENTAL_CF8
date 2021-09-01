@@ -340,7 +340,7 @@
 
     h3.mb-4(data-aos="fade-right") Formas de evaluar propuestas
 
-    .row.mb-5
+    .row.mb-4
       .col-lg-7(data-aos="fade-right")  
         AcordeonB(tipo="a" clase-tarjeta="tarjeta tarjeta-verde")
           .row.px-lg-5(titulo="Evaluación diagnóstica")
