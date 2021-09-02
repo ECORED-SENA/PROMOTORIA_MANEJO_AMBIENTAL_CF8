@@ -42,7 +42,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Métodos de Jerarquización de las normas ambientales',
+            titulo: 'Métodos de jerarquización de las normas ambientales',
             hash: 't_2_2',
           },
           {
@@ -93,17 +93,17 @@ export default {
       referencia:
         'Universidad Cetys (2019). Medición del aprendizaje: Manual para profesores. ',
       link:
-        'https://repositorio.cetys.mx/bitstream/60000/421/1/ManualDeMedici%C3%B3nDelAprendizaje2019.pdf',
+        'https://repositorio.cetys.mx/bitstream/60000/421/1/ManualDeMedici%C3%B3nDelAprendizaje2019.pdf ',
     },
     {
       referencia:
         'DANE (2010). Clasificaciones de las actividades ambientales. ',
       link:
-        'https://www.dane.gov.co/files/investigaciones/pib/ambientales/Clas_actividades_ambientales.pdf',
+        'https://www.dane.gov.co/files/investigaciones/pib/ambientales/Clas_actividades_ambientales.pdf ',
     },
     {
-      referencia: 'Ideam, (s.f.) Autoridades ambientales Colombia. ',
-      link: 'http://www.ideam.gov.co/web/ocga/autoridades',
+      referencia: 'Ideam, (s.f.) Autoridades ambientales en Colombia. ',
+      link: 'http://www.ideam.gov.co/web/ocga/autoridades ',
     },
   ],
   glosario: [
@@ -115,7 +115,7 @@ export default {
     {
       termino: 'Criterio de evaluación',
       significado:
-        'enunciado que expresa el grado y tipo de aprendizaje que se espera que sea alcanzado por respecto a algún concepto, procedimiento o actitud concreta.',
+        'enunciado que expresa el grado y tipo de aprendizaje que se espera que sea alcanzado con respecto a algún concepto, procedimiento o actitud concreta.',
     },
     {
       termino: 'Cultura de sensibilización',
@@ -125,7 +125,7 @@ export default {
     {
       termino: 'Gamificación',
       significado:
-        'se trata de la integración entre dinámicas de juego en entornos lo lúdicos.',
+        'se trata de la integración entre dinámicas de juego en entornos no lúdicos.',
     },
     {
       termino: 'Legislación ambiental',
@@ -157,14 +157,14 @@ export default {
     },
     {
       texto:
-        'Salas, J. (2018), Capacitación practica en 4 pasos. [Video]. YouTube',
+        'Salas, J. (2018), Capacitación práctica en 4 pasos. [Video]. YouTube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=aJyzuRwgRlE',
     },
     {
       texto:
         'Martínez, P. (2000) Jerarquización de las decisiones ambientales: el modelo de esferas concéntricas. Observatorio Medioambiental.  Número 3, p. 21-34.',
-      tipo: 'Sitio web',
+      tipo: 'Pdf',
       link:
         'https://revistas.ucm.es/index.php/OBMD/article/download/OBMD0000110021A/21895/0  MI0C4FFV)/Downloads/23037-Texto%20del%20art%C3%ADculo-23056-1-10-20110607.PDF',
     },
@@ -192,18 +192,18 @@ export default {
       },
       {
         nombre: 'Víctor Julián Ardila',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Centro Agropecuario La Granja <br>Regional Tolima',
       },
       {
         nombre: 'Paula Andrea Taborda Ortiz',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de diseño y metrología <br>Regional distrito capital',
+        centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital',
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisora Metodológica y Pedagógica',
-        centro: 'Centro de diseño y metrología <br>Regional Distrito Capital',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital',
       },
       {
         nombre: 'Jhon Jairo Rodríguez Pérez',
@@ -249,7 +249,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',

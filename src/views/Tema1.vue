@@ -11,8 +11,8 @@
     figure.mb-5(data-aos="fade")
       img(src="@/assets/curso/banner-tema1.png", alt="Estructura de programas")  
 
-    p.mb-5(data-aos="fade") Con miras a realizar un trabajo de alto valor para las comunidades, es necesario estructurar un programa detallado en donde se plasme como se va a desarrollar la actividad, un cronograma con fechas establecidas, horarios y temáticas a trabajar. Para las campañas de concientización y de sensibilización es de vital importancia tener 
-      strong claridad de cuales son los resultados esperados, a quienes va dirigidos y como se realizará la medición de estos en el tiempo.
+    p.mb-5(data-aos="fade") Con miras a realizar un trabajo de alto valor para las comunidades, es necesario estructurar un programa detallado en donde se plasme cómo se va a desarrollar la actividad, un cronograma con fechas establecidas, horarios y temáticas a trabajar. Para las campañas de concientización y de sensibilización es de vital importancia tener 
+      strong claridad de cuáles son los resultados esperados, a quiénes van dirigidos y cómo se realizará la medición de estos en el tiempo.
 
 
     h3(data-aos="fade-right") Objetivos
@@ -245,7 +245,7 @@
             thead.tabla-b__header
               tr
                 th.col1-tabla1 
-                  h3.mb-0 Metologia
+                  h3.mb-0 Metología
                 th 
                   h3.mb-0 Concepto
             tbody
@@ -264,7 +264,7 @@
               tr
                 td.col-gris2.text-center
                   strong Gamificación
-                td.col-gris2 Se trata de la integración de dinámicas de juego en entornos lo lúdicos, esto con el fin de aumentar la motivación, la concentración, la fidelización y el esfuerzo.  
+                td.col-gris2 Se trata de la integración de dinámicas de juego en entornos no lúdicos, esto con el fin de aumentar la motivación, la concentración, la fidelización y el esfuerzo.  
               tr
                 td.col-gris1.text-center
                   strong Pensamiento de diseño
@@ -277,7 +277,7 @@
 
     h3(data-aos="fade-right") Criterios de evaluación
 
-    p.mb-4(data-aos="fade") Son el referente específico que permite la valoración del aprendizaje, ya que describen las bases en que se centrará el aprendizaje a parir de los logros que se quieran alcanzar, tanto en competencias como en conocimiento, sus especificaciones permiten definir los resultados de aprendizaje y concretar lo que el estudiante debe saber hacer y comprender para determinado tema, los cuales deben ser medibles, observables y evaluables. 
+    p.mb-4(data-aos="fade") Son el referente específico que permite la valoración del aprendizaje, ya que describen las bases en que se centrará el aprendizaje a partir de los logros que se quieran alcanzar, tanto en competencias como en conocimiento, sus especificaciones permiten definir los resultados de aprendizaje y concretar lo que el estudiante debe saber hacer y comprender para determinado tema, los cuales deben ser medibles, observables y evaluables. 
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
@@ -348,7 +348,7 @@
               img(src="@/assets/curso/tema1-tab1.svg", alt="Evaluación diagnóstica") 
             .col-lg-1  
             .col-lg-8
-              p Evalúa las fortalezas, debilidades, conocimientos y habilidades antes de un proceso de la formación. En sí, sirve para conocer el punto de partida.
+              p Evalúa las fortalezas, debilidades, conocimientos y habilidades antes de un proceso de formación. En sí, sirve para conocer el punto de partida.
           .row.justify-content-center.px-lg-5(titulo="Evaluación formativa")
             .col-lg-3.col-4.mb-3
               img(src="@/assets/curso/tema1-tab2.svg", alt="Evaluación formativa") 

@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Legislación Ambiental
+      h1 Legislación ambiental
 
     figure.mb-5(data-aos="fade")
       img(src="@/assets/curso/banner-tema2.png", alt="Legislación Ambiental")  
@@ -18,9 +18,9 @@
 
     // 2.1
     #t_2_1.titulo-segundo(data-aos="fade-right")
-      .h2 2.1. Factores de clasificación de las normas ambientales
+      .h2 2.1 Factores de clasificación de las normas ambientales
 
-    p.mb-4(data-aos="fade") Al interior de la legislación es importante establecer los factores que clasificación las normas ambientales las cuales permitan su articulación y conocimiento sobre para qué se pueden utilizar en un programa ambiental.   
+    p.mb-4(data-aos="fade") Al interior de la legislación es importante establecer los factores que clasifican las normas ambientales, las cuales permitan su articulación y conocimiento sobre para qué se pueden utilizar en un programa ambiental.   
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade")
       p.mb-0
@@ -212,11 +212,11 @@
 
     // 2.3
     #t_2_3.titulo-segundo(data-aos="fade-right")
-      .h2 2.3. Autoridades Ambientales
+      .h2 2.3 Autoridades ambientales
 
-    p(data-aos="fade")  Las autoridades ambientales son entes de carácter público que se encargan de la administración dentro del área de su jurisdicción del medio ambiente y los recursos naturales. Estos propenden por el desarrollo sostenible a través del cumplimiento de las regulaciones y disposiciones legales del ministerio de ambiente, vivienda y desarrollo territorial.
+    p(data-aos="fade") Las autoridades ambientales son entes de carácter público que se encargan de la administración dentro del área de su jurisdicción del medio ambiente y los recursos naturales. Estos propenden por el desarrollo sostenible a través del cumplimiento de las regulaciones y disposiciones legales del ministerio de ambiente, vivienda y desarrollo territorial.
 
-    p.mb-4(data-aos="fade")  En Colombia las normas ambientales están divididas según el trámite y también según la ubicación. Según el Ideam, (s.f.) las autoridades ambientales Colombia son:  
+    p.mb-4(data-aos="fade") En Colombia las normas ambientales están divididas según el trámite y también según la ubicación. Según el Ideam, (s.f.) las autoridades ambientales en Colombia son:  
 
     .row.tarjeta.back-verde.p-lg-5.p-3 
       h3.text-center Autoridades ambientales en Colombia

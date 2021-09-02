@@ -17,16 +17,16 @@
     .col-md-1        
     .col-md-5
       .tarjeta.tarjeta-botones.p-3(v-if="selected === 0")
-        h4 Ministerio de ambiente y desarrollo sostenible
+        h4 Ministerio de Ambiente y Desarrollo Sostenible
         p.mb-0 Es el rector de la gestión del ambiente y de los recursos naturales renovables, encargado de orientar y regular el ordenamiento ambiental del territorio y de definir las políticas y regulaciones a las que se sujetarán la recuperación, conservación, protección, ordenamiento, manejo, uso y aprovechamiento sostenible de los recursos naturales renovables y del ambiente de la nación, a fin de asegurar el desarrollo sostenible, sin perjuicio de las funciones asignadas a otros sectores.  
 
       .tarjeta.tarjeta-botones.p-3(v-else-if="selected === 1")
-        h4 Autoridad nacional de licencias ambientales
-        p.mb-0 Es una unidad administrativa especial, creada mediante el decreto 3573 del 2011, de orden nacional encargada de que los proyectos, obras o actividades sujetos de licenciamiento, permiso o trámite ambiental cumplan con la normativa, de tal manera que contribuyan al desarrollo sostenible. con respecto al recurso hídrico, esta autoridad se ocupa de otorgar los permisos de concesión de aguas superficiales y subterráneas, de prospección y exploración de aguas subterráneas y de la autorización de construcción en zonas que ocupen el cauce de una corriente o depósito de agua, así como hacerles seguimiento a todas las licencias otorgadas.  
+        h4 Autoridad Nacional de Licencias Ambientales
+        p.mb-0 Es una unidad administrativa especial, creada mediante el Decreto 3573 del 2011, de orden nacional encargada de que los proyectos, obras o actividades sujetos de licenciamiento, permiso o trámite ambiental cumplan con la normativa, de tal manera que contribuyan al desarrollo sostenible. Con respecto al recurso hídrico, esta autoridad se ocupa de otorgar los permisos de concesión de aguas superficiales y subterráneas, de prospección y exploración de aguas subterráneas y de la autorización de construcción en zonas que ocupen el cauce de una corriente o depósito de agua, así como hacerles seguimiento a todas las licencias otorgadas.  
 
       .tarjeta.tarjeta-botones.p-3(v-else-if="selected === 2")
-        h4 Parques nacionales naturales de Colombia
-        p.mb-0 Es una unidad administrativa especial, creada mediante el decreto 3572 del 2011, de orden nacional encargada de la administración y manejo del sistema de parques nacionales naturales y la coordinación del sistema nacional de áreas protegidas. con respecto al recurso hídrico, esta autoridad se ocupa de otorgar concesiones de los recursos hídricos presentes en los parques nacionales naturales y las áreas protegidas, así como de su administración, control y conservación.
+        h4 Parques Nacionales Naturales de Colombia
+        p.mb-0 Es una unidad administrativa especial, creada mediante el Decreto 3572 del 2011, de orden nacional, encargada de la administración y manejo del sistema de parques nacionales naturales y la coordinación del sistema nacional de áreas protegidas. Con respecto al recurso hídrico, esta autoridad se ocupa de otorgar concesiones de los recursos hídricos presentes en los parques nacionales naturales y las áreas protegidas, así como de su administración, control y conservación.
 
 </template>
 
