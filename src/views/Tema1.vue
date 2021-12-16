@@ -236,7 +236,7 @@
 
     h3(data-aos="fade-right") Metodología
 
-    p.mb-4(data-aos="fade") El mundo está cambiando y con éste, la forma cómo las personas aprenden. Es por esto que es necesario reinventar las metodologías de enseñanza, y dentro de los contextos de capacitación para programas se deben utilizar según la necesidad. Esto quiere decir que ahora todas las personas son sujetos activos dentro del sistema de aprendizaje, rompiendo con lo tradicional hacia nuevos procesos de conocimiento. 
+    p.mb-4(data-aos="fade") El mundo está cambiando y con este, la forma cómo las personas aprenden. Es por esto que es necesario reinventar las metodologías de enseñanza, y dentro de los contextos de capacitación para programas se deben utilizar según la necesidad. Esto quiere decir que ahora todas las personas son sujetos activos dentro del sistema de aprendizaje, rompiendo con lo tradicional hacia nuevos procesos de conocimiento. 
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
@@ -245,7 +245,7 @@
             thead.tabla-b__header
               tr
                 th.col1-tabla1 
-                  h3.mb-0 Metología
+                  h3.mb-0 Metodología
                 th 
                   h3.mb-0 Concepto
             tbody
