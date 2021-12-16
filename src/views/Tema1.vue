@@ -23,20 +23,20 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-objetivos.svg' alt='Toma de conciencia')
-          .tarjeta.color-primario.text-center.p-4
+          .tarjeta.color-secundario.text-center.p-4
             h4.text-center Toma de conciencia
             p Concienciar a las personas de los problemas del medio ambiente.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-objetivos2.svg' alt='Conocimientos')
-          .tarjeta.color-primario.text-center.p-4(@mouseover='mostrarIndicador = false')
+          .tarjeta.color-secundario.text-center.p-4(@mouseover='mostrarIndicador = false')
             .indicador--hover(v-if='mostrarIndicador')
             h4.text-center Conocimientos
             p Ayudar a interesarse por el medio ambiente. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-objetivos3.svg' alt='Actitudes')
-          .tarjeta.color-primario.text-center.p-4
+          .tarjeta.color-secundario.text-center.p-4
             h4.text-center Actitudes
             p Adquirir interés por el medio ambiente y voluntad para conservarlo.
 
@@ -44,19 +44,19 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-objetivos4.svg' alt='Aptitudes')
-          .tarjeta.color-primario.text-center.p-4
+          .tarjeta.color-secundario.text-center.p-4
             h4.text-center Aptitudes
             p Ayudar a resolver el problema que afecta el medio ambiente.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-objetivos5.svg' alt='Capacidad de evaluación')
-          .tarjeta.color-primario.text-center.p-4
+          .tarjeta.color-secundario.text-center.p-4
             h4.text-center Capacidad de evaluación
             p Evaluar los programas de educación ambiental. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-objetivos6.svg' alt='Participación')
-          .tarjeta.color-primario.text-center.p-4
+          .tarjeta.color-secundario.text-center.p-4
             h4.text-center Participación
             p Desarrollar el sentido de la responsabilidad para adoptar medidas adecuadas.       
 
@@ -119,7 +119,7 @@
     p.mb-5(data-aos="fade") Usualmente se llevan a cabo para generar un aprendizaje de manera grupal y así los alumnos puedan resolver dudas entre ellos.
 
     .row.mb-5(data-aos="fade-down")
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -128,7 +128,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Mesa redonda
               p.mb-0 Permite exponer puntos de vista sobre un tema común, aportando información variada. Al finalizar las exposiciones, el moderador hace un resumen de las coincidencias y diferencias, posteriormente se invita a formular preguntas que puedan aclarar las dudas que se tengan sobre algún tema específico.
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
           .tarjetaContent
@@ -138,7 +138,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Philipps 66
               p.mb-0 En esta técnica un grupo se divide en subgrupos de seis personas, para discutir durante seis minutos un tema y llegar a una conclusión. Cada grupo genera un informe donde se extrae la conclusión general. 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -148,7 +148,7 @@
               h5.mb-0 Juego de roles
               p.mb-0 Dos o más personas representan una situación real, asumiendo los roles del caso, con la finalidad de que el tema propuesto pueda ser mejor comprendido por el grupo.
 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -157,7 +157,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Foro
               p.mb-0 El grupo expresa informal y libremente sus ideas y opiniones sobre un asunto. Para esta actividad, se requiere de una moderación. 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -166,7 +166,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Interrogatorio
               p.mb-0 Se basa en el cuestionamiento para obtener información sobre procedimientos, habilidades, conceptos, sentimientos o experiencias que estén relacionadas con la temática.
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -176,7 +176,7 @@
               h5.mb-0 Estudio de caso
               p.mb-0 Se describe una situación real o ficticia, y se sigue con el planteamiento de un problema para el cual se requiere de una solución. 
 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -185,7 +185,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Exposición
               p.mb-0 Se trata de una técnica para expresar de manera oral un tema de interés colectivo.
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
           .tarjetaContent
@@ -195,7 +195,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Lluvia de ideas
               p.mb-0 Permite establecer ideas para que sea analizadas las más relevantes. Generalmente se descartan las que no se relacionan con el tema.
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -205,7 +205,7 @@
               h5.mb-0 Diálogos simultáneos
               p.mb-0  Se utiliza para dar soluciones rápidas a un tema específico por medio de confrontar puntos de vista. En esto participan varios equipos en los cuales se discute el problema en un breve periodo de tiempo. 
 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -214,7 +214,7 @@
             .tarjetaTxt2.text-center.p-2
               h5.mb-0 Simposio
               p.mb-0 Un grupo de expertos habla por turnos acerca de un tema y se utiliza para ampliar la información de un asunto o tema.
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -223,7 +223,7 @@
             .tarjetaTxt.text-center.p-2
               h5.mb-0 Debate o discusión guiada
               p.mb-0 Consiste en el intercambio informal de ideas, información u opiniones, la cual permite la moderación para guiar y plantear interrogantes para conducir la discusión.
-      .col-lg-4.mb-2
+      .col-lg-4.mb-3
         .tarjeta-container
           .tarjetaContent
             .tarjetaImg
@@ -240,7 +240,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
-        .tabla-b.color-acento-botones
+        .tabla-b.color-primario
           table  
             thead.tabla-b__header
               tr
@@ -281,7 +281,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
-        .tabla-b.color-acento-botones
+        .tabla-b.color-primario
           table  
             thead.tabla-b__header
               tr
@@ -294,7 +294,7 @@
                 td.col-gris1.text-center 
                   strong De acuerdo a su origen.
                 td.col-gris1
-                  ul.lista-ul--color.lista-circulo.lista-azul
+                  ul.lista-ul--color.lista-circulo.lista-verde
                     li.mb-1
                       i.fas.fa-circle
                       p.mb-0 Personales.
@@ -308,7 +308,7 @@
                 td.col-gris2.text-center 
                   strong De acuerdo con la forma de usar los criterios para juzgar.
                 td.col-gris2
-                  ul.lista-ul--color.lista-circulo.lista-azul
+                  ul.lista-ul--color.lista-circulo.lista-verde
                     li.mb-1
                       i.fas.fa-circle
                       p.mb-0 Analíticos.
@@ -319,7 +319,7 @@
                 td.col-gris1.text-center 
                   strong De acuerdo con el momento de aplicación de la situación de evaluación.
                 td.col-gris1
-                  ul.lista-ul--color.lista-circulo.lista-azul
+                  ul.lista-ul--color.lista-circulo.lista-verde
                     li.mb-1
                       i.fas.fa-circle
                       p.mb-0 Antes.
@@ -410,7 +410,8 @@ export default {
 
 <style lang="sass" scoped>
 .back-img-verde, .back-img-azul, .back-img-amarillo
-  height: 145px
+  height: 170px
+  width: 200px
   background-size: cover
   background-position: center
   background-repeat: no-repeat
@@ -432,6 +433,7 @@ export default {
 @media (max-width: $bp-max-md)
     .back-img-verde, .back-img-azul, .back-img-amarillo
       height: 170px
+      width: 200px
       background-size: contain
       background-repeat: no-repeat
 </style>

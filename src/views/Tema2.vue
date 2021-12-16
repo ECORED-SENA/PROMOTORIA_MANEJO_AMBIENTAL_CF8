@@ -40,7 +40,7 @@
           td.back-white 
             p 
               strong Protección del aire y del clima: 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Prevención de la contaminación mediante modificación de los procesos.
@@ -55,7 +55,7 @@
             strong Gestión de aguas residuales.
           td.back-white Comprende las actividades y medidas orientadas a la prevención de la contaminación de las aguas superficiales mediante la reducción de las descargas de aguas residuales sobre las aguas superficiales y mares. 
           td.back-white 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Redes de alcantarillado.
@@ -70,7 +70,7 @@
             strong Gestión de residuos.
           td.back-white Hace referencia a las actividades y medidas dirigidas a prevenir la generación de residuos y a reducir sus efectos nocivos para el ambiente. Comprende la recolección y tratamiento de residuos, incluidas las actividades de seguimiento y regulación.
           td.back-white 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Recolección y transporte.
@@ -85,7 +85,7 @@
             strong Protección y recuperación de suelos, aguas subterráneas y aguas superficiales.
           td.back-white Hace referencia a las medidas y actividades dirigidas a prevenir la filtración de contaminantes, a limpiar suelos y cuerpos de agua y a proteger el suelo contra la erosión, la salinización y otras formas de degradación física.
           td.back-white 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Prevención de la filtración de contaminantes.
@@ -103,7 +103,7 @@
             strong Atenuación de ruidos y vibraciones.
           td.back-white Hace referencia a las medidas y actividades tendientes a controlar, reducir y atenuar los ruidos y vibraciones industriales y del transporte.
           td.back-white 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Modificaciones preventivas de los procesos en la fuente.
@@ -115,7 +115,7 @@
             strong Protección de la biodiversidad y de los paisajes.
           td.back-white Hace referencia a las medidas y actividades destinadas a la protección y rehabilitación de especies de la fauna y la flora, de los ecosistemas y hábitat, así como a la protección y rehabilitación de paisajes naturales e intervenidos.
           td.back-white 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Protección y rehabilitación de hábitat y especies.
@@ -127,7 +127,7 @@
             strong Protección contra las radiaciones.
           td.back-white Hace referencia a actividades y mediciones orientadas a reducir o eliminar las consecuencias negativas de radiaciones emitidas por cualquier fuente.
           td.back-white 
-            ul.lista-ul--color.lista-azul
+            ul.lista-ul--color.lista-verde
               li 
                 i.fas.fa-atom
                 | Protección del entorno.
@@ -147,32 +147,32 @@
 
     p.mb-4(data-aos="fade") Las normas ambientales están divididas principalmente por las siguientes clasificaciones según su grado de importancia jerárquicamente:
 
-    TabsA.color-primario.mb-4(data-aos="fade-down")
-      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Normas ambientales")
+    TabsA.color-secundario.mb-4(data-aos="fade-down")
+      .row.justify-content-center.tarjeta.tarjeta-verde.p-4(titulo="Normas ambientales")
         .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab1.svg", alt="Normas ambientales")  
         .col-md-10
           h5 Normas ambientales
           p Son aplicables a cualquier empresa sin importar el tamaño, el tipo y la naturaleza, además se utilizan los aspectos ambientales a sus actividades, productos y servicios, permitiendo que la organización determine que puede controlar o influir, considerando la perspectiva del ciclo de vida.
-      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Tratados internacionales")
+      .row.justify-content-center.tarjeta.tarjeta-verde.p-4(titulo="Tratados internacionales")
         .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab2.svg", alt="Tratados internacionales")  
         .col-md-10
           h5 Tratados internacionales
           p Son un acuerdo entre dos o más países que quedan por escrito y están regulados por las normas del derecho internacional.
-      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Leyes ambientales")
+      .row.justify-content-center.tarjeta.tarjeta-verde.p-4(titulo="Leyes ambientales")
         .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab3.svg", alt="Leyes ambientales")  
         .col-md-10
           h5 Leyes ambientales 
           p Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales. 
-      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Decretos ambientales")
+      .row.justify-content-center.tarjeta.tarjeta-verde.p-4(titulo="Decretos ambientales")
         .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab4.svg", alt="Decretos ambientales")  
         .col-md-10
           h5 Decretos ambientales  
           p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación. Destina como un servicio público la salud y el saneamiento ambiental.
-      .row.justify-content-center.tarjeta.back-amarillo-suave.p-4(titulo="Resoluciones ambientales")
+      .row.justify-content-center.tarjeta.tarjeta-verde.p-4(titulo="Resoluciones ambientales")
         .col-md-2.col-5.mb-3
           img.px-lg-3(src="@/assets/curso/tema2-2-tab5.svg", alt="Resoluciones ambientales")  
         .col-md-10
@@ -182,7 +182,7 @@
     p.mb-4(data-aos="fade") Las anteriores normas se pueden agrupar en diferentes áreas normativas: 
 
     .tarjeta--container.row(data-aos="fade-down")
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-7
             figure
@@ -190,7 +190,7 @@
         h4.text-center Política ambiental
         p.text-center Es la gestión pública o privada de los asuntos ambientales, internacionales, nacionales, regionales y locales. 
 
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-md.tarjeta.color-azul.p-5
         .row.justify-content-center.mb-4
           .col-7
             figure
@@ -198,7 +198,7 @@
         h4.text-center Ordenamiento ambiental
         p.text-center Es la distribución de los usos del territorio de acuerdo con sus características.
 
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-7
             figure
@@ -218,7 +218,7 @@
 
     p.mb-4(data-aos="fade") En Colombia las normas ambientales están divididas según el trámite y también según la ubicación. Según el Ideam, (s.f.) las autoridades ambientales en Colombia son:  
 
-    .row.tarjeta.back-verde.p-lg-5.p-3 
+    .row.tarjeta.fondo-mapa.p-lg-5.p-3 
       h3.text-center Autoridades ambientales en Colombia
       Botones(data-aos="fade-down")
 

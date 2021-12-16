@@ -13,7 +13,7 @@
       .col-12.col-md-8.col-lg-9.mb-lg-5(data-aos="fade-left")
         .col-lg-6
           p.mb-4.mb-lg-5 Afianzar algunos de los conceptos sobre los procesos de aprendizaje y normativa ambiental. 
-        .tarjeta.back-primario.p-2.px-lg-4
+        .tarjeta.bg-primario.p-2.px-lg-4
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0.px-lg-2 Completar el párrafo con el término al cual corresponde la 
